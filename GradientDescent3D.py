@@ -28,15 +28,15 @@ def sqrt1(vector):
 
 
 def main():
-	epsilon = 0.01
-	alpha = 0.00005
+	epsilon = 0.000000001
+	alpha = 0.00006
 
-	w1,w2, B = 1, 0, 1
+	w1,w2, B = 1, 1, 2
 	x = np.array([w1,w2,B])
 	k = 1
 
 	while (sqrt1(gradientD(x[0],x[1],x[2])) > epsilon):
-		print(gradientD(x[0],x[1],x[2]))
+		#print(gradientD(x[0],x[1],x[2]))
 		x = x - alpha*gradientD(x[0],x[1],x[2])
 		k += 1
 		

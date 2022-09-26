@@ -1,2 +1,2 @@
 # CognitiveComputing
-# By: Nava, Leonardo & Vargas, Denisse
+By: Nava, Leonardo & Vargas, Denisse

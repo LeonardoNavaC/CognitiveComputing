@@ -3,10 +3,10 @@ fun=@funcion;
 
 x0 = ones(1,55);
 
-[x,fval,exitflag,output,grad,hessian]=fminunc(fun,x0);
+[X,fval,exitflag,output,grad,hessian]=fminunc(fun,x0);
 
 disp(fval)
-disp(x)
+disp(X)
 
 
 function [fun] =funcion(X)
